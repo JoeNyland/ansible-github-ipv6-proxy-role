@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Joe Nyland
+  role_name: github_ipv6_proxy
+  namespace: joenyland
+  description: Use a proxy to access GitHub over IPv6.
+  license: MIT
+  min_ansible_version: '2.1'
+  platforms:
+  - name: Debian
+    versions:
+      - trixie # 13 (stable)
+      - bookworm # 12 (oldstable)
+  galaxy_tags:
+    - github
+    - ipv6
+    - proxy
+dependencies: []

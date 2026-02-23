@@ -1,7 +1,9 @@
 ---
 - name: Add proxy to access github.com over IPv6
   become: true
-  tags: github
+  tags:
+    - github
+    - notest
   block:
     - name: Add hosts file entries
       blockinfile:

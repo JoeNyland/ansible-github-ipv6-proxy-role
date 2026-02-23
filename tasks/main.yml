@@ -7,7 +7,6 @@
       blockinfile:
         marker: "# {mark} IPv6 access to github.com"
         path: /etc/hosts
-        unsafe_writes: true # Updating /etc/hosts fails in Docker during testing without this
         block: |
           # https://danwin1210.de/github-ipv6-proxy.php
           2a01:4f8:c010:d56::2 github.com
